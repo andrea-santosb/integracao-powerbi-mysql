@@ -5,11 +5,12 @@ QUESTÕES DO DESAFIO:
 
 1) Diferença entre os recursos de “Acrescentar Consultas” e “Mesclar Consultas” no Power BI?
 
-  Resposta: O recurso "Acrescentar Consultas" empilha as linhas das tabelas com estruturas iguais na vertical, já o recurso de "Mesclar Consultas" irá combinar as colunas na horizontal usando uma chave(id) em comum.
+    Resposta: O recurso "Acrescentar Consultas" empilha as linhas das tabelas com estruturas iguais na vertical, já o recurso de "Mesclar Consultas" irá combinar as colunas na horizontal usando uma chave(id) em comum.
 
 2) Por que no modelo adotado no banco de dados podemos apenas utilizar o "Mesclar" e não o "Atribuir"?
    
-  Resposta: No caso em questão, não podemos utilizar o “Acrescentar consultas” pois o Power BI iria incluir novas linhas na tabela departamento e preencheria com informações somente as colunas que possuem dados na tabela localização, deixando as demais em branco. Isso não deixaria os dados organizados da maneira correta.
+    Resposta: No caso em questão, não podemos utilizar o “Acrescentar consultas” pois o Power BI iria incluir novas linhas na tabela departamento e preencheria com informações somente as colunas que possuem dados na tabela localização, deixando as demais em branco. Isso não deixaria os dados organizados da maneira correta.
+
 
 
 TRANSFORMAÇÕES FEITAS NA BASE DE DADOS:
